@@ -1,0 +1,80 @@
+.containerCards {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+}
+
+.verdeCard {
+    display: flex;
+    border-left: 4px solid var(--color-secondary);
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    background-color: var(--grey-1);
+    width: 70vw;
+}
+
+.vermelhaCard {
+    display: flex;
+    border-left: 4px solid var(--grey-3);
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    background-color: var(--grey-1);
+    width: 70vw;
+}
+
+.desc {
+    color: var(--grey-4);
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.tipo {
+    color: var(--grey-btn);
+    font-size: 14px;
+}
+
+.valorTransicao {
+    color: var(--grey-4);
+    margin-bottom: 10px;
+}
+
+.deletar {
+    display: flex;
+}
+
+.imgLixeira {
+    display: flex;
+}
+
+@media screen and (min-width: 375px) {
+    .containerCards {
+        width: 75vw;
+    }
+
+    .verdeCard {
+        width: 75vw;
+    }
+
+    .vermelhaCard {
+        width: 75vw;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .verdeCard, .vermelhaCard {
+        width: 80vw;
+        max-width: 350px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .verdeCard, .vermelhaCard {
+        width: 80vw;
+        max-width: 390px;
+    }
+}

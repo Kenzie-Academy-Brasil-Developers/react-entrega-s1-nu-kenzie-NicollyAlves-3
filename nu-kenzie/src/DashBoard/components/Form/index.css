@@ -1,0 +1,128 @@
+.containerForm {
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    width: 80vw;
+}
+
+.divDescricao {
+    display: flex;
+    flex-direction: column;
+}
+
+.divDescricao > label {
+    color: var(--grey-4);
+    font-family: var(--font-primary);
+    font-size: 14px;
+}
+
+.divDescricao > input {
+    background-color: var(--grey-1);
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.divDescricao > p {
+    color: var(--grey-3);
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.divConteudo {
+    display: flex;
+}
+
+.divValor {
+    display: flex;
+    flex-direction: column;
+}
+
+.divValor > label {
+    color: var(--grey-4);
+    font-family: var(--font-primary);
+    font-size: 14px;
+}
+
+.divValor > input {
+    background-color: var(--grey-1);
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 16px;
+    padding: 10px;
+    width: 80%;
+}
+
+.divTipoValor > label {
+    color: var(--grey-4);
+    font-family: var(--font-primary);
+    font-size: 14px;
+}
+
+
+select {
+    background-color: var(--grey-1);
+    margin-top: 8px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    color: var(--grey-3);
+}
+
+option {
+    color: var(--grey-3);
+}
+
+.btnInserirValor {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: var(--color-primary);
+    border-radius: 8px;
+    color: var(--grey-1);
+    font-size: 16px;
+}
+
+@media screen and (min-width: 375px) {
+    .containerForm {
+        width: 85vw;
+    }
+}
+
+@media screen and (min-width:425px) {
+    .containerForm {
+        margin: 0 auto;
+        width: max-content;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .containerForm {
+        margin: 0 auto;
+        width: max-content;
+        padding: 20px;
+        border: 2px solid var(--grey-2);
+        border-radius: 4px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .DashBoardPrinc {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,48 @@
+.divTotal {
+    margin-left: 25px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70vw;
+    border: 2px solid var(--grey-2);
+    border-radius: 4px;
+}
+
+.valorTotal {
+    color: var(--grey-4);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.valorDesc {
+    color: var(--grey-3);
+    font-size: 15px;
+}
+
+.numeroTotal {
+    color: var(--color-primary);
+    font-weight: 800;
+}
+
+@media screen and (min-width: 375px) {
+    .divTotal {
+        width: 75vw;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .divTotal {
+        width: 80vw;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .divTotal {
+        width: 80vw;
+        max-width: 392px;
+        margin: 0 auto;
+    }
+}

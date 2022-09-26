@@ -1,0 +1,26 @@
+.navHeader {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--grey-2);
+    box-shadow: 1px 1px 20px 3px var(--grey-2);
+    width: 100vw;
+}
+
+.btnInicio {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--grey-2);
+    color: var(--grey-btn);
+    font-family: var(--font-primary-2);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+

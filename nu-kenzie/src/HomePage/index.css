@@ -1,0 +1,93 @@
+.mainHome {
+    background-color: var(--grey-4);
+    font-family: var(--font-primary);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logoHome {
+    margin-bottom: 5px;
+}
+
+.tituloHome{
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--grey-1);
+    font-weight: bolder;
+    font-size: 38px;
+    font-family: var(--font-terc);
+    line-height: 43px;
+    margin-bottom: 8px;
+}
+
+.sloganHome {
+    color: var(--grey-1);
+    font-family: var(--font-primary);
+}
+
+.btnIniciar {
+    display: flex;
+    font-family: var(--font-primary-2);
+    color: var(--grey-1);
+    background-color: var(--color-primary);
+    padding: 13px 20px 13px 20px;
+    border-radius: 8px;
+    width: 241px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    z-index: 3;
+    position: absolute;
+}
+
+.containerInfos {
+    padding: 20px;
+    z-index: 2;
+}
+
+.containerCard {
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerCard > img {
+    display: flex;
+    min-width: 500px;
+    min-height: 280px;
+    width: 60%;
+    margin-top: 10vh;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 752px) {
+    .logoHome {
+        margin-bottom: 30px;
+    }
+
+    .tituloHome {
+        line-height: 48px;
+        margin-bottom: 20px;
+    }
+
+    .containerInfos {
+        width: 30vw;
+        height: 100vh;
+        padding: 10%;
+    }
+
+    .containerCard {
+        width: 20vw;
+        padding-right: 10%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+}

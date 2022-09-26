@@ -1,0 +1,107 @@
+.sectionFiltros {
+    display: flex;
+    flex-direction: column;
+}
+
+.divFiltros {
+    display: flex;
+    flex-direction: column;
+}
+
+.resumo {
+    padding: 25px;
+    margin-bottom: -10px;
+    color: var(--grey-4);
+    font-size: 16px;
+}
+
+.todos {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--color-primary);
+    color: var(--grey-1);
+    font-family: var(--font-primary-2);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.despesa {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--grey-2);
+    color: var(--grey-btn);
+    font-family: var(--font-primary-2);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.entrada {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--grey-2);
+    color: var(--grey-btn);
+    font-family: var(--font-primary-2);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btns {
+    display: flex;
+    margin-top: -35px;
+    padding: 25px;
+    margin-right: 10px;
+    padding-right: 10px;
+    width: 80vw;
+    justify-content: space-between;
+}
+
+.divListaVazia {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin-top: -30px;
+    width: 80vw;
+}
+
+@media screen and (min-width: 375px){
+    .btns {
+        width: 84vw;
+    }
+
+    .divListaVazia {
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        margin-top: -30px;
+        width: 85vw;
+        max-width: 385px;
+    }
+}
+
+@media screen and (min-width: 425px){
+    .sectionFiltros {
+        max-width: 430px;
+        margin: 0 auto;
+    }
+    
+    .btns {
+        max-width: 380px;
+        margin: 0 auto;
+        margin-top: -20px;
+        margin-left: -1px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .btns {
+        width: 88vw;
+        max-width: 402px;
+    }
+    .sectionFiltros {
+        max-width: 475px;
+        margin: 0 auto;
+    }
+    .divListaVazia {
+        max-width: 420px;
+    }
+}

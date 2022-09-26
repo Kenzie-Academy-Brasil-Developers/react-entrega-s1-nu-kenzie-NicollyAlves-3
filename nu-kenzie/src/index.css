@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  border-bottom: none;
+}
+
+:root {
+  --color-primary: #FD377E;
+  --color-primary-2: #E34981;
+  --color-secondary: #03B898;
+  --grey-4: #212529;
+  --grey-btn: #343A40;
+  --grey-3: #868E96;
+  --grey-2: #E9ECEF;
+  --grey-1: #F8F9FA;
+  --font-primary: "Nunito:wght@400", sans-serif;
+  --font-primary-2: "Nunito:wght@500", sans-serif;
+  --font-secondary: "Nunito:wght@700", sans-serif;
+  --font-terc: "Nunito:wght@800", sans-serif;
+}
+
+body {
+  font-family: "Inter:wght@400", sans-serif;
+}
